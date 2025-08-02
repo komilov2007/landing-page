@@ -3,127 +3,135 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing page</title>
-    <link
-      rel="shortcut icon"
-      href="./image/2sect.kran.png"
-      type="image/x-icon"
-    />
+    <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
     <section
-      class="container mx-auto max-w-[1220px] flex justify-between items-center pt-[100px]"
+      class="container mx-auto max-w-[450px] flex justify-between flex-col items-center pt-[100px] md:max-w-[750px]"
     >
-      <div>
-        <h1 class="text-[52px] leading-none">
-          Поставщик Дальнего <br />
-          Востока
+      <div class="md:flex md:flex-col">
+        <h1 class="text-[28px] md:ml-[60px] leading-none md:text-[44px]">
+          Поставщик Дальнего Востока
         </h1>
-        <p class="pt-[40px]">
-          Наши клиенты получают полный спектр услуг по работе с Китаем. <br />
-           Начиная с подбора производителя заканчивая доставкой товара до двери.
-          <br />
-           Настолько прозрачных сделок с Китаем вы еще не осуществляли.
+        <p class="pt-[15px] md:items-center md:pl-[100px]">
+          Наши клиенты получают полный спектр услуг по <br />работе с Китаем.
+          Начиная с подбора производителя <br />заканчивая доставкой товара до
+          двери. Настолько прозрачных сделок с Китаем вы еще не осуществляли.
         </p>
         <button
-          class="text-bold pt-[40px] border-b-[3px] font-bold border-yellow-400"
+          class="text-bold pt-[40px] border-b-[3px] font-bold border-yellow-400 text-[15px] md:w-[155px] md:ml-[300px]"
         >
           Узнать больше
         </button>
       </div>
       <div>
-        <img class="rounded-4xl" src="./image/hero.png" alt="" />
+        <img
+          class="rounded-4xl mt-[40px] w-[100%]"
+          src="./image/hero.png"
+          alt=""
+        />
+      </div>
+    </section>
+    <section
+      class="container mx-auto max-w-[450px] flex pt-[60px] flex-col shadow-2xl rounded-4xl mt-[50px] h-[800px] md:max-w-[700px]"
+    >
+      <div
+        class="flex justify-center flex-col gap-[10px] pl-[40px] pb-[40px] pr-[80px] border-purple-200 md:w-[590px] md:flex"
+      >
+        <img class="w-[68px]" src="./image/2sect-box.png" alt="" />
+        <b class="text-[18px]"
+          >Поиск производителей по <br />
+          товару</b
+        >
+        <p>
+          Lorem ipsum dolor sit amet, consectetur <br />adipiscing elit, sed do
+          eiusmod incididunt ut.
+        </p>
+      </div>
+      <div
+        class="flex items-baseline flex-col gap-[20px] border-r-[1px] pl-[40px] pr-[80px] border-purple-200"
+      >
+        <img class="w-[68px]" src="./image/2sect.kran.png" alt="" />
+        <b class="text-[18px]"
+          >Поиск конкретного <br />
+          производителя
+        </b>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur <br />adipiscing elit, sed do
+          eiusmod incididunt ut.
+        </p>
+      </div>
+      <div
+        class="flex items-baseline flex-col mt-[20px] gap-[20px] pl-[40px] pr-[80px] border-r-[2]"
+      >
+        <img class="w-[68px]" src="./image/2scet-icon (1).png" alt="" />
+        <b class="text-[18px]"
+          >Доставка образцов <br />
+          товаров
+        </b>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur<br />
+          adipiscing elit, sed do eiusmod incididunt ut.
+        </p>
       </div>
     </section>
 
     <section
-      class="container mx-auto max-w-[1220px] flex pt-[60px] justify-between shadow-2xl rounded-4xl mt-[50px]"
+      class="container mx-auto max-w-[450px] mt-[615px] md:max-w-[700px]"
     >
-      <div
-        class="flex items-baseline flex-col gap-[20px] pl-[80px] pb-[40px] border-r-[1px] pr-[80px] border-purple-200"
-      >
-        <img src="./image/2sect-box.png" alt="" />
-        <b>Поиск производителей по товару</b>
-        <p>
-          Lorem ipsum dolor sit amet,<br />
-          consectetur adipiscing elit, sed <br />
-          do eiusmod incididunt ut.
-        </p>
-      </div>
-      <div
-        class="flex items-baseline flex-col gap-[20px] border-r-[1px] pr-[80px] border-purple-200"
-      >
-        <img src="./image/2sect.kran.png" alt="" />
-        <b>Поиск конкретного производителя </b>
-        <p>
-          Lorem ipsum dolor sit amet,<br />
-          consectetur adipiscing elit, sed <br />
-          do eiusmod incididunt ut.
-        </p>
-      </div>
-      <div
-        class="flex items-baseline flex-col gap-[20px] pr-[80px] border-r-[2]"
-      >
-        <img src="./image/2scet-icon (1).png" alt="" />
-        <b>Доставка образцов товаров </b>
-        <p>
-          Lorem ipsum dolor sit amet,<br />
-          consectetur adipiscing elit, sed <br />
-          do eiusmod incididunt ut.
-        </p>
-      </div>
-    </section>
+      <div class="flex flex-wrap ml-[0px] gap-[60px] mt-[-480px]">
+        <div class="md:m]">
+          <img
+            class="hidden md:w-[829px] md:flex md:h-[383px]"
+            src="./image/shacman.png"
+            alt=""
+          />
+          <img
+            class="hidden md:flex md:relative md:bottom-96 md:w-[300px] md:h-[383px]"
+            src="./image/green.box.png"
+            alt=""
+          />
 
-    <section class="container mx-auto max-w-[1220px] mt-[65px]">
-      <div class="">
-        <img class="" src="./image/shacman.png" alt="" />
-        <img
-          class="relative bottom-111.5 h-111.2"
-          src="./image/green.box.png"
-          alt=""
-        />
-        <h1 class="text-[52px] text-white relative bottom-185 left-10">
-          Почему с нами <br />
-          выгоднее?
-        </h1>
-      </div>
-
-      <div class="flex flex-wrap ml-[100px] gap-[60px] mt-[-480px]">
+          <h1 class="text-[28px] font-bold md:mt-[-360px]">
+            Почему с нами <br />
+            выгоднее?
+          </h1>
+        </div>
         <div class="flex flex-row gap-[40px]">
-          <img class="w-[80px] h-[80px]" src="./image/qulf.png" alt="" />
+          <img class="w-[52px] h-[52px]" src="./image/qulf.png" alt="" />
           <div class="flex flex-col gap-[8px] mr-[140px]">
-            <h1 class="font-bold text-[20px]">Lorem ipsum dolor sit amet</h1>
+            <h1 class="font-bold text-[18px]">Lorem ipsum dolor sit amet</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur <br />
-              adipiscing elit, sed do eiusmod ut.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod ut.
             </p>
           </div>
         </div>
         <div class="flex flex-row gap-[40px]">
-          <img src="./image/jadval.png" alt="" />
+          <img class="w-[52px] h-[52px]" src="./image/jadval.png" alt="" />
           <div class="flex flex-col gap-[8px]">
-            <h1 class="font-bold text-[20px]">Lorem ipsum dolor sit amet</h1>
+            <h1 class="font-bold text-[18px]">Lorem ipsum dolor sit amet</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur <br />
-              adipiscing elit, sed do eiusmod ut.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod ut.
             </p>
           </div>
         </div>
         <div class="flex flex-row gap-[40px] mr-[140px]">
-          <img src="./image/$belgi.png" alt="" />
+          <img class="w-[52px] h-[52px]" src="./image/$belgi.png" alt="" />
           <div class="flex flex-col gap-[8px]">
-            <h1 class="font-bold text-[20px]">Lorem ipsum dolor sit amet</h1>
+            <h1 class="font-bold text-[18px]">Lorem ipsum dolor sit amet</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur <br />
-              adipiscing elit, sed do eiusmod ut.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod ut.
             </p>
           </div>
         </div>
         <div class="flex flex-row gap-[40px]">
-          <img src="./image/globus.png" alt="" />
+          <img class="w-[52px] h-[52px]" src="./image/globus.png" alt="" />
           <div class="flex flex-col gap-[8px]">
-            <h1 class="font-bold text-[20px]">Lorem ipsum dolor sit amet</h1>
+            <h1 class="font-bold text-[18px]">Lorem ipsum dolor sit amet</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur <br />
               adipiscing elit, sed do eiusmod ut.
@@ -133,19 +141,25 @@
       </div>
     </section>
 
-    <section class="container mx-auto max-w-[1220px] mt-[100px]">
-      <h1 class="text-bold text-[48px] font-semibold mb-[10px]">
+    <section
+      class="container mx-auto max-w-[450px] mt-[100px] md:max-w-[700px]"
+    >
+      <h1 class="text-bold text-[28px] font-semibold mb-[10px]">
         Выполненные работы
       </h1>
-      <p class="mb-[50px] text-slate-500">
-        Мы собрали информацию по грузам, которые мы уже доставили. <br />
-         У нас специальный подход к каждому виду товаров.
+      <p class="mb-[50px] text-[15px] text-slate-500">
+        Мы собрали информацию по грузам, которые мы <br />уже доставили. У нас
+        специальный подход к <br />каждому виду товаров.
       </p>
-      <div class="flex gap-[40px]">
+      <div class="flex flex-col gap-[40px]">
         <div
-          class="border-yellow-400 border-[1px] w-[393px] h-[440px] flex flex-col gap- shadow-2xl rounded-2xl items-center"
+          class="border-yellow-400 border-[1px] w-[453px] h-[480px] flex flex-col shadow-2xl rounded-2xl md:w-[690px] md:h-[423px]"
         >
-          <img src="./image/kontiner.png" alt="" />
+          <img
+            class="w-[453px] md:w-[690px] md:h-[233px]"
+            src="./image/kontiner.png"
+            alt=""
+          />
           <h1 class="font-semibold text-[20px] pl-[30px] pt-[10px]">
             Станки и оборудование
           </h1>
@@ -161,9 +175,13 @@
         </div>
 
         <div
-          class="border-yellow-400 border-[1px] w-[393px] h-[440px] flex flex-col gap- shadow-2xl rounded-2xl"
+          class="border-yellow-400 border-[1px] w-[393px] h-[440px] flex flex-col gap- shadow-2xl rounded-2xl hidden md:flex md:w-[690px]"
         >
-          <img src="./image/kran.png" alt="" />
+          <img
+            class="md:w-[690px] md:h-[233px]"
+            src="./image/kran.png"
+            alt=""
+          />
           <h1 class="font-semibold text-[20px] pl-[30px] pt-[10px]">
             Компоненты и запчасти
           </h1>
@@ -177,7 +195,7 @@
             18 000 руб.
           </button>
         </div>
-        <div
+        <!-- <div
           class="border-yellow-400 border-[1px] w-[393px] h-[440px] flex flex-col gap- shadow-2xl rounded-2xl"
         >
           <img src="./image/kema.png" alt="" />
@@ -193,37 +211,73 @@
           >
             20 000 руб.
           </button>
-        </div>
+        </div> -->
       </div>
     </section>
 
     <section
-      class="container mx-auto max-w-[1220px] mt-[220px] bg-[#0B7572] w-100% h-[917px] flex justify-between pl-[80px] pr-[60px] justify-baseline pt-[85px]"
+      class="container mx-auto max-w-[450px] mt-[50px] bg-[#0B7572] w-100% h-[640px] flex flex-col gap-[30px] pl-[50px] pr-[60px] justify-baseline pt-[20px] md:max-w-[700px]"
     >
       <div>
-        <h1 class="text-[48px] text-white">
-          Привлеченныеc <br />
-          клиенты
-        </h1>
+        <h1 class="text-[28px] text-white">Привлеченныеc клиенты</h1>
       </div>
-      <div class="bg-white w-[652px] h-[747px] rounded-xl">
+      <div
+        class="bg-white w-[345px] h-[507px] rounded-sm md:w-[645px] md:ml-[-20px]"
+      >
         <div
           class="flex justify-between mr-[50px] border-b-[3px] border-[#D7D7DD] ml-[30px] pb-[30px] mt-[30px]"
         >
-          <img src="./image/logo.svg" alt="" />
-          <p class="text-[11px]">
+          <img class="flex w-[79px] h-43px" src="./image/logo.svg" alt="" />
+          <p class="text-[11px] hidden">
             ООО "ПДВ" ИНН 7329023100 КПП 732901001 <br />
             433405, Ульяновская обл., Территория Портовой особой <br />
             Экономической зоны, Проезд Первых Резидентов 3 <br />
-             Телефон: +7 8422 99 666 5 e-mail: info@pdv.ooo
+            Телефон: +7 8422 99 666 5 e-mail: info@pdv.ooo
           </p>
         </div>
+        <div
+          class="bg-[#0B7572] w-[90%] ml-[18px] rounded-sm h-[35px] mb-[20px] md:hidden"
+        >
+          <b class="text-[15px] text-white"
+            ><b class="items-center pl-[20px]">Клиент №1</b>
+          </b>
+        </div>
 
-        <div class="ml-[30px]">
+        <div class="ml-[30px] flex flex-col gap-[40px]">
+          <div class="flex gap-[10px] md:hidden">
+            <img src="./image/amorarizator.png" alt="" />
+            <p class="text-[14px]">
+              Lorem ipsum dolor sit amet, <br />
+              consectetur adipiscing elit, <br />
+              sed do eiusmod ut.
+            </p>
+          </div>
+          <div class="flex flex-col md:hidden">
+            <b class="text-[14px]">Завод “Hlobalkhim”</b>
+            <p class="text-[14px]">
+              г. Москва, проспект Кутузовский, д. 12 стр. <br />
+              1 этаж, пом. 1
+            </p>
+            <div class="flex pl-[15px] pt-[10px] gap-[5px]">
+              <img src="./image/star.svg" alt="" />
+              <img src="./image/star.svg" alt="" />
+              <img src="./image/star.svg" alt="" />
+              <img src="./image/star.svg" alt="" />
+              <img src="./image/star.05.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="flex flex-col md:hidden">
+            <b class="text-[14px]"> Коваль Иван Борисович </b>
+            <p>Руководитель отдела поставок</p>
+            <a href="tel:+ 7 (495) 765 33 22">+ 7 (495) 765 33 22</a>
+          </div>
           <table
-            class="justify-between w-[588px] h-[510px] mt-[40px] border-none rounded-2xl"
+            class="justify-between hidden w-[588px] h-[310px] mt-[40px] border-none rounded-2xl md:flex md:mt-[-0px] md:h-[-690px]"
           >
-            <thead class="border-[1px] bg-[#0B7572] rounded-2xl h-[48px]">
+            <thead
+              class="border-[1px] hidden bg-[#0B7572] rounded-2xl h-[48px]"
+            >
               <tr class="">
                 <th
                   class="border-[#0B7572] border-r-[2px] border-[#D7D7DD] text-white font-semibold"
@@ -393,117 +447,131 @@
         </div>
       </div>
     </section>
-
-    <section class="container mx-auto max-w-[1220px] mt-[100px]">
-      <h1 class="text-[48px]">Этапы поставки</h1>
+    <section
+      class="container mx-auto max-w-[450px] mt-[100px] md:max-w-[700px]"
+    >
+      <h1 class="text-[28px] font-bold">Этапы поставки</h1>
 
       <div class="">
         <div
-          class="flex gap-[56px] w-[95%] h-[245px] bg-white shadow-xs hover:scale-[1.05] ease-in shadow-black ml-[60px] rounded-xl mt-[50px]"
+          class="flex gap-[56px] w-[95%] h-[245px] bg-white shadow-xs shadow-black ml-[10px] rounded-xl mt-[50px]"
         >
           <img
-            class="w-[331px] h-[181px] mt-[33px] ml-[90px]"
+            class="w-[331px] h-[181px] mt-[33px] ml-[90px] hidden"
             src="./image/dostafkaimg1.png"
             alt=""
           />
-          <div class="flex flex-col mt-[33px]">
-            <h1
-              class="text-[20px] font-semibold border-b-[1px] border-b-[2px] border-[#FFCE50] pb-[24px] mb-[24px]"
-            >
+          <div class="flex flex-col mt-[33px] ml-[30px]">
+            <h1 class="text-[18px] font-semibold pb-[24px] mb-[24px]">
               Предложение от продавца
             </h1>
-            <p>
+            <p class="md:hidden">
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipiscing elit, sed do eiusmod tempor <br />incididunt ut labore
+              et dolore magna <br />
+              aliqua.
+            </p>
+            <p class="hidden md:flex">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor <br />
-              incididunt ut labore et dolore magna aliqua. Elit duis tristique
-              sollicitudin nibh sit <br />
-              amet. Ultrices eros in cursus turpis massa tincidunt. Venenatis
-              urna cursus eget <br />
-              nunc scelerisque viverra mauris in.
+              eiusmod <br />
+              tempor incididunt ut labore et dolore magna aliqua. Elit duis
+              tristique <br />
+              sollicitudin nibh sit amet. Ultrices eros in cursus turpis massa
+              tincidunt. <br />
+              Venenatis urna cursus eget nunc scelerisque viverra mauris in.
             </p>
           </div>
         </div>
         <div
-          class="flex gap-[56px] w-[95%] h-[245px] bg-white shadow-xs hover:scale-[1.05] ease-in shadow-black ml-[60px] rounded-xl mt-[50px]"
+          class="flex gap-[56px] w-[95%] h-[245px] bg-white shadow-xs shadow-black ml-[10px] rounded-xl mt-[50px]"
         >
           <img
-            class="w-[331px] h-[181px] mt-[33px] ml-[90px]"
+            class="w-[331px] h-[181px] mt-[33px] ml-[90px] hidden"
             src="./image/dostafkaimg1.png"
             alt=""
           />
-          <div class="flex flex-col mt-[33px]">
-            <h1
-              class="text-[20px] font-semibold border-b-[1px] border-b-[2px] border-[#FFCE50] pb-[24px] mb-[24px]"
-            >
-              Предложение от продавца
+          <div class="flex flex-col mt-[33px] ml-[30px]">
+            <h1 class="text-[18px] font-semibold pb-[24px] mb-[24px]">
+              Доставка
             </h1>
-            <p>
+            <p class="md:hidden">
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipiscing elit, sed do eiusmod tempor <br />incididunt ut labore
+              et dolore magna <br />
+              aliqua.
+            </p>
+            <p class="hidden md:flex">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor <br />
-              incididunt ut labore et dolore magna aliqua. Elit duis tristique
-              sollicitudin nibh sit <br />
-              amet. Ultrices eros in cursus turpis massa tincidunt. Venenatis
-              urna cursus eget <br />
-              nunc scelerisque viverra mauris in.
+              eiusmod <br />
+              tempor incididunt ut labore et dolore magna aliqua. Elit duis
+              tristique <br />
+              sollicitudin nibh sit amet. Ultrices eros in cursus turpis massa
+              tincidunt. <br />
+              Venenatis urna cursus eget nunc scelerisque viverra mauris in.
             </p>
           </div>
         </div>
         <div
-          class="flex gap-[56px] w-[95%] h-[245px] bg-white shadow-xs hover:scale-[1.05] ease-in shadow-black ml-[60px] rounded-xl mt-[50px]"
+          class="flex gap-[56px] w-[95%] h-[245px] bg-white shadow-xs shadow-black ml-[10px] rounded-xl mt-[50px]"
         >
           <img
-            class="w-[331px] h-[181px] mt-[33px] ml-[90px]"
+            class="w-[331px] h-[181px] mt-[33px] ml-[90px] hidden"
             src="./image/dostafkaimg1.png"
             alt=""
           />
-          <div class="flex flex-col mt-[33px]">
-            <h1
-              class="text-[20px] font-semibold border-b-[1px] ease-in-out border-b-[2px] border-[#FFCE50] pb-[24px] mb-[24px]"
-            >
-              Предложение от продавца
+          <div class="flex flex-col mt-[33px] ml-[30px]">
+            <h1 class="text-[18px] font-semibold pb-[24px] mb-[24px]">
+              Установка у клиента
             </h1>
-            <p>
+            <p class="md:hidden">
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipiscing elit, sed do eiusmod tempor <br />incididunt ut labore
+              et dolore magna <br />
+              aliqua.
+            </p>
+            <p class="hidden md:flex">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor <br />
-              incididunt ut labore et dolore magna aliqua. Elit duis tristique
-              sollicitudin nibh sit <br />
-              amet. Ultrices eros in cursus turpis massa tincidunt. Venenatis
-              urna cursus eget <br />
-              nunc scelerisque viverra mauris in.
+              eiusmod <br />
+              tempor incididunt ut labore et dolore magna aliqua. Elit duis
+              tristique <br />
+              sollicitudin nibh sit amet. Ultrices eros in cursus turpis massa
+              tincidunt. <br />
+              Venenatis urna cursus eget nunc scelerisque viverra mauris in.
             </p>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="container mx-auto max-w-[1220px] mt-[90px]">
+    <section class="container mx-auto max-w-[450px] mt-[90px]">
       <h1 class="text-[48px]">Нам доверяют</h1>
-      <div class="flex gap-[133px] ml-[136px] mt-[20px]">
-        <div class="border-r-[1px] pr-[50px]">
-          <img src="image/./lgo1.png" alt="" />
-          <b class="text-[20px]">Росатом</b>
-          <p class="text-[#6B6B6C] flex justify-center text-[14px]">
-            Корпорация атомной энергии
+      <div class="flex gap-[33px] ml-[6px] mt-[20px] w-[170px]">
+        <div class="border-r-[1px] pr-[30px]">
+          <img class="flex pl-[50px]" src="image/./lgo1.png" alt="" />
+          <b class="text-[20px] pl-[50px]">Росатом</b>
+          <p class="text-[#6B6B6C] text-[14px] pl-[-50px]">
+            Корпорацияатомнойэнергии
           </p>
         </div>
-        <div class="border-r-[1px] flex flex-col justify-center pr-[100px]">
-          <img src="image/./gaz.png" alt="" />
-          <b class="text-[20px]">Росатом</b>
-          <p class="text-[#6B6B6C] text-[14px]">Корпорация атомной энергии</p>
-        </div>
-        <div class="border-r-[1px] pr-[100px]">
-          <img src="image/./neft.png" alt="" />
-          <b class="text-[20px]">Росатом</b>
-          <p class="text-[#6B6B6C] text-[14px]">Корпорация атомной энергии</p>
-        </div>
-        <div class="">
-          <img src="image/./kosmos.png" alt="" />
+        <div class="flex flex-col justify-center pr-[100px]">
+          <img class="pr-[-30px]" src="image/./gaz.png" alt="" />
           <b class="text-[20px]">Росатом</b>
           <p class="text-[#6B6B6C] text-[14px]">Корпорация атомной энергии</p>
         </div>
       </div>
-      <div class="flex gap-[133px] ml-[136px] mt-[50px]">
-        <div class="border-r-[1px] pr-[50px]">
+      <div class="flex mt-[30px]">
+        <div class="border-r-[1px] pr-[8px] ml-[20px]">
+          <img src="image/./neft.png" alt="" />
+          <b class="text-[20px]">Росатом</b>
+          <p class="text-[#6B6B6C] text-[14px]">Корпорация атомной энергии</p>
+        </div>
+        <div class="ml-[20px]">
+          <img class="pl-[-20px]" src="image/./kosmos.png" alt="" />
+          <b class="text-[20px]">Росатом</b>
+          <p class="text-[#6B6B6C] text-[14px]">Корпорация атомной энергии</p>
+        </div>
+      </div>
+      <!-- <div class="flex gap-[133px] ml-[86px] mt-[50px]">
+        <div class="border-r-[1px] pr-[70px]">
           <img src="image/./lukoy.png" alt="" />
           <b class="text-[20px]">Росатом</b>
           <p class="text-[#6B6B6C] flex justify-center text-[14px]">
@@ -525,6 +593,273 @@
           <b class="text-[20px]">Росатом</b>
           <p class="text-[#6B6B6C] text-[14px]">Корпорация атомной энергии</p>
         </div>
+      </div> -->
+    </section>
+    <section class="container max-w-[450px] mx-auto anton md:max-w-[700px]">
+      <h1 class="text-[28px] font-bold mt-[100px] mb-[50px]">
+        Сотрудники компании
+      </h1>
+      <div class="flex flex-col gap-[30px] mb-[24px]">
+        <div
+          class="flex gap-[40px] items-center w-[455px] h-[210px] bg-white shadow-xl shadow-slote-500 rounded-xl md:w-[710px]"
+        >
+          <div class="bg-[#0B7572] rounded-l-lg h-[210px] w-[51px]"></div>
+          <img class="w-[138px] h-[138px]" src="./image/anotn.png" alt="" />
+          <div class="">
+            <b class="text-[20px]">Антон Макаров</b>
+            <p
+              class="text-[14px] border-b-[3px] pb-[10px] mb-[20px] border-yellow-400 opacity-[70%]"
+            >
+              Руководитель компании
+            </p>
+            <div class="flex gap-[20px]">
+              <img src="./image/instagram.png" alt="" />
+              <img src="./image/wk.png" alt="" />
+              <img src="./image/linkedin.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex gap-[40px] items-center w-[455px] h-[210px] bg-white shadow-xl shadow-slote-500 rounded-xl md:w-[710px]"
+        >
+          <div class="bg-[#0B7572] rounded-l-lg h-[210px] w-[51px]"></div>
+          <img class="w-[138px] h-[138px]" src="./image/elena.png" alt="" />
+          <div class="">
+            <b class="text-[20px]">Елена Валерьева</b>
+            <p
+              class="text-[14px] border-b-[3px] pb-[10px] mb-[20px] border-yellow-400 opacity-[70%]"
+            >
+              Главный бухгалтер
+            </p>
+            <div class="flex gap-[20px]">
+              <img src="./image/instagram.png" alt="" />
+              <img src="./image/wk.png" alt="" />
+              <img src="./image/linkedin.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-[30px]">
+        <div
+          class="flex gap-[40px] mb-[50px] items-center w-[655px] h-[210px] bg-white shadow-xl shadow-slote-500 rounded-xl md:w-[710px]"
+        >
+          <div class="bg-[#0B7572] rounded-l-lg h-[210px] w-[51px]"></div>
+          <img class="w-[138px] h-[138px]" src="./image/ivan.png" alt="" />
+          <div class="">
+            <b class="text-[20px]">Иван Аркадьев </b>
+            <p
+              class="text-[14px] border-b-[3px] pb-[10px] mb-[20px] border-yellow-400 opacity-[70%]"
+            >
+              Менеджер по закупкам
+            </p>
+            <div class="flex gap-[20px]">
+              <img src="./image/instagram.png" alt="" />
+              <img src="./image/wk.png" alt="" />
+              <img src="./image/linkedin.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex gap-[40px] hidden w-[655px] h-[210px] bg-white shadow-xl shadow-slote-500 rounded-xl"
+        >
+          <div class="bg-[#0B7572] rounded-l-lg h-[210px] w-[51px]"></div>
+          <img class="w-[138px] h-[138px]" src="./image/boris.png" alt="" />
+          <div class="">
+            <b class="text-[20px]">Борис Вавилов</b>
+            <p
+              class="text-[14px] border-b-[3px] pb-[10px] mb-[20px] border-yellow-400 opacity-[70%]"
+            >
+              Бухгалтер
+            </p>
+            <div class="flex gap-[20px]">
+              <img src="./image/instagram.png" alt="" />
+              <img src="./image/wk.png" alt="" />
+              <img src="./image/linkedin.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex gap-[30px]">
+        <div
+          class="flex hidden gap-[40px] items-center w-[655px] h-[210px] bg-white shadow-xl shadow-slote-500 rounded-xl"
+        >
+          <div class="bg-[#0B7572] rounded-l-lg h-[210px] w-[51px]"></div>
+          <img class="w-[138px] h-[138px]" src="./image/alina.png" alt="" />
+          <div class="">
+            <b class="text-[20px]">Алина Кравец</b>
+            <p
+              class="text-[14px] border-b-[3px] pb-[10px] mb-[20px] border-yellow-400 opacity-[70%]"
+            >
+              Сотрудник отдела кадров
+            </p>
+            <div class="flex gap-[20px]">
+              <img src="./image/instagram.png" alt="" />
+              <img src="./image/wk.png" alt="" />
+              <img src="./image/linkedin.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex gap-[40px] hidden items-center w-[655px] h-[210px] bg-white shadow-xl shadow-slote-500 rounded-xl"
+        >
+          <div class="bg-[#0B7572] rounded-l-lg h-[210px] w-[51px]"></div>
+          <img class="w-[138px] h-[138px]" src="./image/viktor.png" alt="" />
+          <div class="">
+            <b class="text-[20px]">Виктор Козуб</b>
+            <p
+              class="text-[14px] border-b-[3px] pb-[10px] mb-[20px] border-yellow-400 opacity-[70%]"
+            >
+              Менеджер по закупкам
+            </p>
+            <div class="flex gap-[20px]">
+              <img src="./image/instagram.png" alt="" />
+              <img src="./image/wk.png" alt="" />
+              <img src="./image/linkedin.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="container mx-auto max-w-[450px] mt-[100px] md:max-w-[700px]"
+    >
+      <h1 class="text-[48px]">Наши контакты</h1>
+      <div class="flex justify-between flex-col">
+        <div class="leftku flex flex-col gap-[44px] mt-[90px]">
+          <div class="flex gap-[35px] items-center">
+            <img class="w-[23px] h-[32px]" src="./image/tel.png" alt="" />
+            <div class="flex flex-col">
+              <p class="text-[14px] opacity-[70%]">Телефон</p>
+              <a class="font-semibold text-[20px]" href="tel:+7 8422 99 666 5"
+                >+7 8422 99 666 5</a
+              >
+            </div>
+          </div>
+          <div class="flex gap-[35px] items-center">
+            <img class="w-[28px] h-[17px]" src="./image/mail.png" alt="" />
+            <div class="flex flex-col">
+              <p class="text-[14px] opacity-[70%]">E-mail</p>
+              <a class="font-semibold text-[20px]" href="mailtu:info@pdv.ooo"
+                >info@pdv.ooo</a
+              >
+            </div>
+          </div>
+          <div class="flex gap-[35px] items-center">
+            <img class="w-[28px] h-[28px]" src="./image/whatsapp.png" alt="" />
+            <div class="flex flex-col">
+              <p class="text-[14px] opacity-[70%]">Whatsapp</p>
+              <a class="font-semibold text-[20px]" href="tel:+86 158 666 95 616"
+                >+86 158 666 95 616</a
+              >
+            </div>
+          </div>
+          <div class="flex gap-[35px] items-center">
+            <img class="w-[28px] h-[28px]" src="./image/splay.png" alt="" />
+            <div class="flex flex-col">
+              <p class="text-[14px] opacity-[70%]">Skype</p>
+              <a
+                class="font-semibold text-[20px]"
+                href="https://www.sxy-bolts.cn"
+                >sxy-bolts.cn</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="rightku container w-[345px] max-w-[450px] max-w-[700px]">
+          <table
+            class="flex items-baseline bg-[#F9F9FB] w-[450px] h-[368px] justify-center rounded-2xl mt-[100px] items-center pt-[10px] md:w-[700px]"
+          >
+            <tr class="border-b-[2px] border-[#E9EAF2]">
+              <td class="opacity-[50%]">Полное наименование:</td>
+
+              <th class="flex items-baseline p-[10px] pl-[30px]">
+                ООО "Поставщик Дальнего Востока"
+              </th>
+            </tr>
+            <tr class="border-b-[2px] border-[#E9EAF2]">
+              <td class="opacity-[50%]">ИНН:</td>
+              <th class="flex items-baseline p-[10px] pl-[30px]">7329023100</th>
+            </tr>
+            <tr class="border-b-[2px] border-[#E9EAF2]">
+              <td class="opacity-[50%]">КПП:</td>
+              <th class="flex items-baseline p-[10px] pl-[30px]">732901001</th>
+            </tr>
+            <tr class="border-b-[2px] border-[#E9EAF2]">
+              <td class="opacity-[50%]">ОГРН:</td>
+              <th class="flex items-baseline p-[10px] pl-[30px]">
+                1167325074762
+              </th>
+            </tr>
+            <tr class="border-b-[2px] border-[#E9EAF2]">
+              <td class="opacity-[50%]">Адрес:</td>
+              <th class="flex items-baseline p-[10px] pl-[30px]">
+                Россия, Ульяновская обл, территория Портовой Особой <br />
+                Экономической Зоны, проезд Первых Резидентов дом 3
+              </th>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto max-w-[450px] md:max-w-[700px]">
+      <img class="mt-[100px]" src="./image/truk.png" alt="" />
+      <div class="relative hidden flex gap-[25px] pl-[900px]">
+        <img src="./image/instagram-white.png" alt="" />
+        <img src="./image/facebook.png" alt="" />
+      </div>
+      <div
+        class="flex hidden flex-col gap-[30px] text-white relative bottom-111 pl-[900px]"
+      >
+        <a href="tel:+38 (099)-638-45-37">+38 (099)-638-45-37</a>
+        <p>Персональная консультация</p>
+      </div>
+    </section>
+    <section class="bg-[#0B7572] w-[100%] h-[482 px] mt-[60px] md:h-[635px]">
+      <div
+        class="container mx-auto max-w-[450px] flex flex-col pt-[60px] md:max-w-[700px] md:flex md:justify-between"
+      >
+        <h1 class="text-[20px] text-white mb-[20px]">LOGO</h1>
+        <div
+          class="flex gap-[20px] justify-between pl-[50px] pr-[50px] md:flex"
+        >
+          <div class="flex flex-col gap-[20px]">
+            <a class="text-white" href="/">Каталог</a>
+            <a class="text-white" href="/">о компании</a>
+            <a class="text-white" href="/">Индивидуальная</a>
+            <a class="text-white" href="/">Партнерам</a>
+          </div>
+          <div class="flex flex-col gap-[20px]">
+            <a class="text-white" href="/">2D, 3D модели</a>
+            <a class="text-white" href="/">Шоу-румы</a>
+            <a class="text-white" href="/">Дилерам</a>
+            <a class="text-white" href="/">Контакты</a>
+            <a class="text-white" href="/">Конфигуратор</a>
+          </div>
+        </div>
+        <div class="flex flex-col gap-[100px]">
+          <div class="flex gap-[15px] pl-[50px] mt-[50px]">
+            <div
+              class="bg-[#0B7572] w-[27px] h-[27px] border-[1px] border-[#ffffff] rounded-[50%]"
+            ></div>
+            <div
+              class="bg-[#0B7572] w-[27px] h-[27px] border-[1px] border-[#ffffff] rounded-[50%]"
+            ></div>
+          </div>
+          <div class="">
+            <input
+              class="bg-[#FF9619] w-[441px] mt-[-120px] h-[42px] pl-[20px] text-white"
+              placeholder="EMAIL"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="container mx-auto max-w-[1220px] mt-[50px] pb-[10px] flex justify-center"
+      >
+        <p class="text-white text-[12px]">
+          © 1993–2021 Интернет- <br />магазин «LOGO» — truck
+        </p>
       </div>
     </section>
   </body>
